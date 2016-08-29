@@ -1,0 +1,238 @@
+.coursebox > .info > h3.name, .course_category_tree .category > .info .name {
+    font-size: 120%;
+    font-weight: normal;
+    margin: 0;
+}
+
+.coursebox .content {
+	clear: none;
+}
+
+.coursebox {
+	padding: 0 0;
+	border: 0px;
+	border-radius: 0px;
+}
+
+.course-content ul li.section.main {
+	border-bottom: 1px solid #eee;
+	padding-top: 5px;
+}
+
+.site-topic ul.section, .course-content ul.section {
+	margin: 0em 1em;
+}
+
+#newdiscussionform {
+	text-align: center;
+}
+
+#searchforums {
+	margin: 5px 0px 5px 5px;
+}
+
+.courses .coursebox {
+	background: transparent !important;
+}
+
+.course-content .current {
+    background-color: #FAFAFA;
+    margin-top: -5px !important;
+}
+
+.coursebox.panel {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.coursebox.panel:hover {
+	}
+
+.coursebox.panel .panel-body {
+	border: 0px solid #eee !important;
+	background: transparent !important;
+	overflow: hidden;
+	position: relative;
+}
+
+.cimbox {
+	height: 225px;
+	position: relative;
+	margin-right: -1px;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.cimbox.noim {
+	background: #eee;
+}
+
+.coursebox-content {
+	padding: 0px 0px 0px;
+	text-align: center;
+	background: #f9fafb;
+}
+
+.coursebox-content h3 {
+	text-align: left;
+	font-weight: normal;
+	font-size: 14px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 95%;
+    margin: 0px 0px 0px;
+    line-height: normal;
+    padding: 15px 15px 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.coursebox-content h3 a {
+	color: #3a3d41;
+}
+
+.coursebox-content .teachers, .panel-heading {
+	display: none;
+}
+
+.panel .coursebtn.submit.btn {
+	float: none;
+	display: block;
+	width: auto;
+	margin: 0px auto 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background: rgba(255,255,255,.7) !important;
+	border: 1px solid #eee !important;
+	box-shadow: none;
+	color: inherit;
+	font-weight: 300;
+	display: none;
+}
+
+.panel:hover .coursebtn.submit.btn {
+	z-index: 9;
+	position: relative;
+}
+
+.coursebox.panel .panel-body:hover .coursebtn.submit.btn {
+	box-shadow: 0px 0px 2px rgba(0,0,0,.35);
+	color: #333 !important;
+}
+
+.coursebox.panel .panel-body:hover {
+	background: [[setting:maincolor]] !important;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.coursebox.panel .panel-body:hover .cimbox2 {
+	opacity: .3;
+	-webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.coursebox .summary {
+	color: #999999;
+    font-size: 13px;
+    min-height: 60px;
+    padding: 0 15px 15px;
+    text-align: left;
+}
+
+.coursebox2 .summary p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 100%;
+}
+
+.coursebox:hover .summary2 p {
+	overflow: visible;
+	max-width: inherit;
+	white-space: normal;
+}
+
+.coursebox.panel .fa-chevron-right.fa.glyphicon.glyphicon-arrow-right {
+    font-size: 10px;
+}
+
+.coursebox.panel .ribbon-wrapper-green {
+	display: block !important;
+}
+
+.coursebox .enrolmenticons {
+	float: none;
+	display: inline-block; 
+	padding-left: 10px;
+}
+
+.coursebox .enrolmenticons img {
+	width: 12px;
+}
+
+#underheader {
+	border-bottom: 1px solid #e1e1e1;
+	background: #fafafa;
+	padding: 15px 0px;
+}
+
+#underheader h3 {
+	color: #333;
+	font-weight: normal;
+	font-size: 20px;
+	margin: 0 0;
+}
+
+h3.sectionname, .section h3 {
+	color: [[setting:secondcolor]];
+}
+
+.section .label .mod-indent-outer, .section .activity .mod-indent-outer {
+	padding-left: 0px;
+}
+
+.editing .section .label .mod-indent-outer, .editing .section .activity .mod-indent-outer {
+	padding-left: 22px;
+}
+
+.section .left, .section .right {
+	display: none;
+}
+
+.section .activity.modtype_label.label {
+	padding-left: 0px;
+}
+
+.course-content ul.topics li.section, .course-content ul.weeks li.section {
+	padding-bottom: 10px;
+}
+
+.course-content ul.topics li.section .summary, .course-content ul.topics li.section .content, .course-content ul.weeks li.section .content, .site-topic ul.section, .course-content ul.section {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.editing .course-content ul.topics li.section .summary, .editing .course-content ul.topics li.section .content, .editing .course-content ul.weeks li.section .content, .editing .site-topic ul.section, .editing .course-content ul.section {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.editing .section .left, .editing .section .right {
+	display: block;
+}
+
+.mform fieldset.collapsible legend a.fheader {
+	margin-left: 0px;
+}
+
+@media (max-width: 768px) {
+	
+}
